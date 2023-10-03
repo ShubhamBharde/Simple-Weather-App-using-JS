@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="app">
+            <header class="weather-heading flex-box">
+                <h1>SB Weather App</h1>
+                <img src="./img/sb.png" alt="" draggable="false">
+            </header>
+            <section class="search-bar flex-box">
+                <input type="text" name="" id="search-city" placeholder="Enter city name">
+                <button class="search-btn">
+                    <img src="./img/search.png" alt="">
+                </button>
+            </section>
+            <main class="flex-box">
+                <img src="./img/clouds.png" alt="">
+                <h3 class="city-temp"></h3>
+                <h2 class="city-name"></h2>
+
+
+            </main>
+            <footer class="flex-box">
+                <div class="humidity flex-box">
+                    <img src="./img/humidity.png" alt="humidity img">
+                    <div class="humidity-details">
+                        <span></span>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="wind-speed flex-box">
+                    <img src="./img/wind.png" alt="wind-speed img">
+                    <div class="wind-details">
+                        <span></span>
+                        <p> wind speed</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
